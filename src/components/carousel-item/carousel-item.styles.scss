@@ -1,0 +1,61 @@
+$w: 300px; //item width
+$h: 350px; //item height
+$radius: 32px; //border radius
+
+
+.carousel-item {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: $w;
+  height: $h;
+  margin: 0 10px 10px 10px;
+  box-sizing: border-box;
+  border-radius: $radius;
+  display: flex; //we'll make the item itself a flex
+  // (for proper alignment inside)
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative; //so that the .content class sticks to it
+
+
+  .background-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: $radius;
+  }
+
+  .content {
+    height: 90px;
+    width: $w;
+    border-radius: 0 0 $radius $radius;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    filter: blur(50);
+    position: absolute;
+    //will stick to the first ancestor with relative position
+
+    &:hover {
+      cursor: pointer;
+      transition: height 0.25s ease, border-radius 0.25s ease;
+      height: $h;
+      border-radius: $radius;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .price {
+      font-size: smaller;
+    }
+
+  }
+}
+

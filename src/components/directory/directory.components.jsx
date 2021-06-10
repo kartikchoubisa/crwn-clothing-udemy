@@ -2,11 +2,10 @@ import React from 'react';
 import {sections as sections_list} from "./directory.data.js";
 import MenuItem from "../menu-item/menu-item.components";
 import './directory.styles.scss'
-import {Link} from "react-router-dom";
 
 export class Directory extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
             sections: sections_list,

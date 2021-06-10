@@ -1,0 +1,29 @@
+@use"../../variables";
+
+.carousel-frame {
+  margin: 40px 20px 60px 20px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  display: flex;
+  //no need to specify flex basis / max-height / min height.
+  // The item size is constant so it will take care.
+  flex-flow: column;
+  justify-content: center;
+
+  box-shadow: 0 0 20px 10px rgba(101, 196, 225, 0.83);
+  border-radius: 32px;
+
+  .carousel-title {
+    padding: 20px 0 20px 40px;
+  }
+
+  .carousel {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+    padding: 0%;
+    flex-grow: 5; //is a child property, the carousel height will be 5 times the title height
+  }
+
+}
+
