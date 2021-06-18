@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/crwn-clothing-udemy/static/css/main.6c84a3f1.chunk.css",
+    "main.js": "/crwn-clothing-udemy/static/js/main.6f023e2e.chunk.js",
+    "main.js.map": "/crwn-clothing-udemy/static/js/main.6f023e2e.chunk.js.map",
+    "runtime-main.js": "/crwn-clothing-udemy/static/js/runtime-main.63c0d0b9.js",
+    "runtime-main.js.map": "/crwn-clothing-udemy/static/js/runtime-main.63c0d0b9.js.map",
+    "static/js/2.2e8fa4e2.chunk.js": "/crwn-clothing-udemy/static/js/2.2e8fa4e2.chunk.js",
+    "static/js/2.2e8fa4e2.chunk.js.map": "/crwn-clothing-udemy/static/js/2.2e8fa4e2.chunk.js.map",
+    "index.html": "/crwn-clothing-udemy/index.html",
+    "service-worker.js": "/crwn-clothing-udemy/service-worker.js",
+    "service-worker.js.map": "/crwn-clothing-udemy/service-worker.js.map",
+    "static/css/main.6c84a3f1.chunk.css.map": "/crwn-clothing-udemy/static/css/main.6c84a3f1.chunk.css.map",
+    "static/js/2.2e8fa4e2.chunk.js.LICENSE.txt": "/crwn-clothing-udemy/static/js/2.2e8fa4e2.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/crwn-clothing-udemy/static/media/crown.3a4e2b15.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63c0d0b9.js",
+    "static/js/2.2e8fa4e2.chunk.js",
+    "static/css/main.6c84a3f1.chunk.css",
+    "static/js/main.6f023e2e.chunk.js"
+  ]
+}
