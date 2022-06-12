@@ -49,11 +49,11 @@ class App extends React.Component {
 			<div>
 				<Header/>
 				<Switch>
-					<Route exact path="/" component={HomePage}/>
-					<Route path="/shop" component={ShopPage}/>
-					<Route exact path="/checkout" component={CheckoutPage}/>
-					<Route exact path="/signin" render={() => this.props.currentUser ?
-						(<Redirect to='/'/>)
+					<Route exact path="/crwn-clothing-udemy/" component={HomePage}/>
+					<Route path="/crwn-clothing-udemy/shop" component={ShopPage}/>
+					<Route exact path="/crwn-clothing-udemy/checkout" component={CheckoutPage}/>
+					<Route exact path="/crwn-clothing-udemy/signin" render={() => this.props.currentUser ?
+						(<Redirect to='/crwn-clothing-udemy/'/>)
 						: (<SignInAndSignUp/>)
 					}/>
 				</Switch>
